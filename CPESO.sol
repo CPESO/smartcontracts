@@ -17,11 +17,11 @@ contract CPESO is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, Pau
     }
 
     function initialize() initializer public {
-        __ERC20_init("CPESO", "CPS");
+        __ERC20_init("CPESO", "CPHP");
         __ERC20Burnable_init();
         __Pausable_init();
         __Ownable_init();
-        __ERC20Permit_init("CPS");
+        __ERC20Permit_init("CPHP");
         __UUPSUpgradeable_init();
 
         _mint(msg.sender, 1000000000 * 10 ** decimals());
