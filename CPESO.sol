@@ -24,7 +24,7 @@ contract CPESO is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, Pau
         __ERC20Permit_init("CPHP");
         __UUPSUpgradeable_init();
 
-        _mint(msg.sender, 1000000000 * 10 ** decimals());
+        _mint(msg.sender, 10000000000 * 10 ** decimals());
     }
 
     function pause() public onlyOwner {
