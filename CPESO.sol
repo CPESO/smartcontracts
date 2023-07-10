@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: CC0-1.0
-pragma solidity ^0.8.18;
+pragma solidity 0.8.18.0;
 
-import "@openzeppelin/contracts-upgradeable@4.8.3/token/ERC20/ERC20Upgradeable.sol";
-import "@openzeppelin/contracts-upgradeable@4.8.3/token/ERC20/extensions/ERC20BurnableUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable@4.8.3/security/PausableUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable@4.8.3/access/OwnableUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable@4.8.3/token/ERC20/extensions/draft-ERC20PermitUpgradeable.sol";
-import "@openzeppelin/contracts-upgradeable@4.8.3/proxy/utils/Initializable.sol";
-import "@openzeppelin/contracts-upgradeable@4.8.3/proxy/utils/UUPSUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/draft-ERC20PermitUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 
 /// @custom:security-contact security@cpeso.ph
 contract CPESO is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, PausableUpgradeable, OwnableUpgradeable, ERC20PermitUpgradeable, UUPSUpgradeable {
@@ -21,10 +21,10 @@ contract CPESO is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, Pau
         __ERC20Burnable_init();
         __Pausable_init();
         __Ownable_init();
-        __ERC20Permit_init("CPHP");
+        __ERC20Permit_init("CPESO");
         __UUPSUpgradeable_init();
 
-        _mint(msg.sender, 10000000000 * 10 ** decimals());
+        _mint(msg.sender, 100000000000 * 10 ** decimals());
     }
 
     function pause() public onlyOwner {
