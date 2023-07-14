@@ -43,7 +43,7 @@ All functions of CPESO smart contracts are described in the [CPESO Smartcontract
 
 ## License
 
-This project is licensed under the [CC0 1.0 Universal](./LICENSE.md).
+CPESO Contracts is released under the [MIT License](./LICENSE.md).
 
 <!-- 
 ----
