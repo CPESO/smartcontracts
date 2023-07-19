@@ -26,6 +26,36 @@ shortcomings of traditional monetary systems, providing people with a secure
 and convenient means to access financial services. In doing so, CPESO is forging a
 new financial ecosystem based on digital assets.
 
+## Technical Requirement
+
+ - Smart Contracts are written with Solidity language.
+ - Smart Contracts mostly uses OpenZeppelin Contracts.
+ - Smart Contracts follow the Natspec Format.
+ - Smart Contracts must be written with full flexibility.
+ - Solidity compiler version 0.8.18 is used.
+ - Smart contracts are designed to be deployed to Etherium chain.
+
+## Functionality Requirement
+
+### Roles
+
+ - Owner : Can pause Burnable,Mintting,Withdraw,Deposit features
+ - Admin : Can change fee, Flow pool regulation, treasury address, revoke roles
+ - Treasury : Must add reward CPESO to staking contract & also receives fees
+ - User : Can deposit PESO and receive CPESO also withdraw their PESO by giving back their CPESO by the current rate
+
+ ### Features
+
+ - Withdraw Pausibility
+ - Deposit Pausibility
+ - Burnable Pausibility
+ - Transmission Pauseability
+ - Supply Upgrade Possibility
+
+### Use Case
+
+1. User deposits PESO and recieves CPESO by using the deposit functionality of contract.
+
 ## Getting Started
 
 1. Onpen the <https://remix.ethereum.org>
