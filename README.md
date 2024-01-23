@@ -41,18 +41,18 @@ For a detailed understanding of the CPESO, please refer to the [whitepaper](http
 
 All functions of CPESO smart contracts are described in the [CPESO Smartcontract](https://github.com/CPESO/smartcontracts)
 
+CPESO received Smart Contract [Security Audit Report](https://cpeso.ph/reports/20230718-Cpeso_SC%20Audit%20Report_06_07_[SA-1607].pdf) from [Hacken](https://hacken.io/services/blockchain-security/smart-contract-security-audit/). 
+
 ## License
 
 CPESO Contracts is released under the [MIT License](./LICENSE).
 
-<!-- 
 ----
 
  <div style="padding: 16px;">
-   <a href="https://cpesho.ph/Audit_Report.pdf" target="_blank">
+   <a href="https://cpeso.ph/reports/20230718-Cpeso_SC%20Audit%20Report_06_07_[SA-1607].pdf" target="_blank">
        <img src="https://hacken.io/wp-content/uploads/2023/01/SCAudit-badge.svg" alt="Proofed by Hacken - Smart contract audit" style="width: 200px;background:white">
    </a>
-</div> 
+</div>
 
 ----
---> 
