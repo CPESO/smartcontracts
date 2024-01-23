@@ -11,7 +11,7 @@
 <br><br>
 
 <p align="center">
-  <a href="https://cpeso.ph/cpeso_whitepaper_en_v1.0.pdf">
+  <a href="https://cpeso.ph/reports/cpeso_whitepaper_en_v1.0.pdf">
   <img src="CPESO.svg" width="100" title="CPESO LOGO">
   </a>
 </p>
@@ -37,7 +37,7 @@ new financial ecosystem based on digital assets.
 
 ## Documentation
 
-For a detailed understanding of the CPESO, please refer to the [whitepaper](https://cpeso.ph/cpeso_whitepaper_en_v1.0.pdf).
+For a detailed understanding of the CPESO, please refer to the [whitepaper](https://cpeso.ph/reports/cpeso_whitepaper_en_v1.0.pdf).
 
 All functions of CPESO smart contracts are described in the [CPESO Smartcontract](https://github.com/CPESO/smartcontracts)
 
