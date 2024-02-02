@@ -11,7 +11,7 @@
 <br><br>
 
 <p align="center">
-  <a href="https://cpeso.ph/reports/cpeso_whitepaper_en_v1.0.pdf">
+  <a href="https://github.com/CPESO/WhitePaper/blob/main/Docs/cpeso_whitepaper_en_v1.0.pdf">
   <img src="CPESO.svg" width="100" title="CPESO LOGO">
   </a>
 </p>
@@ -37,11 +37,11 @@ new financial ecosystem based on digital assets.
 
 ## Documentation
 
-For a detailed understanding of the CPESO, please refer to the [whitepaper](https://cpeso.ph/reports/cpeso_whitepaper_en_v1.0.pdf).
+For a detailed understanding of the CPESO, please refer to the [whitepaper](https://github.com/CPESO/WhitePaper/blob/main/Docs/cpeso_whitepaper_en_v1.0.pdf).
 
 All functions of CPESO smart contracts are described in the [CPESO Smartcontract](https://github.com/CPESO/smartcontracts)
 
-CPESO received Smart Contract [Security Audit Report](https://cpeso.ph/reports/20230718-Cpeso_SC%20Audit%20Report_06_07_[SA-1607].pdf) from [Hacken](https://hacken.io/services/blockchain-security/smart-contract-security-audit/). 
+CPESO received Smart Contract [Security Audit Report](https://cpeso.io/reports/20230718-Cpeso_SC%20Audit%20Report_06_07_[SA-1607].pdf) from [Hacken](https://hacken.io/services/blockchain-security/smart-contract-security-audit/). 
 
 ## License
 
@@ -50,7 +50,7 @@ CPESO Contracts is released under the [MIT License](./LICENSE).
 ----
 
  <div style="padding: 16px;">
-   <a href="https://cpeso.ph/reports/20230718-Cpeso_SC%20Audit%20Report_06_07_[SA-1607].pdf" target="_blank">
+   <a href="https://cpeso.io/reports/20230718-Cpeso_SC%20Audit%20Report_06_07_[SA-1607].pdf" target="_blank">
        <img src="https://hacken.io/wp-content/uploads/2023/01/SCAudit-badge.svg" alt="Proofed by Hacken - Smart contract audit" style="width: 200px;background:white">
    </a>
 </div>
