@@ -51,7 +51,7 @@ CPESO Contracts is released under the [MIT License](./LICENSE).
 
  <div style="padding: 16px;">
    <a href="https://cpeso.io/reports/20230718-Cpeso_SC%20Audit%20Report_06_07_[SA-1607].pdf" target="_blank">
-       <img src="https://hacken.io/wp-content/uploads/2023/01/SCAudit-badge.svg" alt="Proofed by Hacken - Smart contract audit" style="width: 200px;background:white">
+       <img src="hacken.svg" alt="Proofed by Hacken - Smart contract audit" style="width: 200px;background:white">
    </a>
 </div>
 
