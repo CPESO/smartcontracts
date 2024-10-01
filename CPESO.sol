@@ -1,5 +1,5 @@
-// SPDX-License-Identifier: CC0-1.0
-pragma solidity 0.8.18.0;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.18.0;
 
 import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol";
@@ -20,7 +20,6 @@ contract CPESO is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, Pau
         __ERC20_init("CPESO", "CPHP");
         __ERC20Burnable_init();
         __Pausable_init();
-        __Ownable_init();
         __ERC20Permit_init("CPESO");
         __UUPSUpgradeable_init();
 
@@ -39,17 +38,9 @@ contract CPESO is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, Pau
         _mint(to, amount);
     }
 
-    function _beforeTokenTransfer(address from, address to, uint256 amount)
-        internal
-        whenNotPaused
-        override
-    {
-        super._beforeTokenTransfer(from, to, amount);
-    }
-
     function _authorizeUpgrade(address newImplementation)
         internal
         onlyOwner
-        override
+        override        
     {}
 }
